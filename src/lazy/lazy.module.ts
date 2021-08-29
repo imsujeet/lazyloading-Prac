@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AppRouterModule } from '../router/router.module';
 import { LazyComponent } from './lazy.component';
+import { AppRouterModule } from 'src/app-router/app-router.module';
 
 @NgModule({
   imports: [
